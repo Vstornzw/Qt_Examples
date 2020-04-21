@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainAutoPage</class>
+ <widget class="QWidget" name="MainAutoPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>445</width>
+    <height>355</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>330</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>F6</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_left" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>21</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_right" native="true">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>30</y>
+     <width>111</width>
+     <height>291</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="MainAutoWidget" name="widget_" native="true">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>30</y>
+     <width>261</width>
+     <height>291</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MainAutoWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">MainAutoWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
