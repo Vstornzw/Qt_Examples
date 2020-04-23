@@ -8,6 +8,7 @@ namespace Ui {
 class MainAutoPage;
 }
 
+
 class MainAutoPage : public QWidget
 {
   Q_OBJECT
@@ -24,5 +25,7 @@ private:
   DirectionKey *direction_key_;
   Ui::MainAutoPage *ui_;
 };
+
+
 
 #endif // MAINAUTOPAGE_H

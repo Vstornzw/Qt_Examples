@@ -9,6 +9,8 @@ namespace Ui {
 class ShpeMintor;
 }
 
+
+
 class ShpeMintor : public QWidget
 {
   Q_OBJECT
@@ -21,5 +23,7 @@ private:
   QGraphicsScene *graphicssrence;
   Ui::ShpeMintor *ui_;
 };
+
+
 
 #endif // SHPEMINTOR_H

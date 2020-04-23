@@ -1,5 +1,8 @@
 ﻿#include "ShpeView.h"
 #include <QToolTip>
+
+
+
 ShpeView::ShpeView(QWidget *parent) : QGraphicsView(parent) {
 
 }
@@ -10,3 +13,5 @@ void ShpeView::mouseMoveEvent(QMouseEvent *event) {
   QString pos = QString("X%1, Y%2").arg(m_pos_.x(), 0, 'f', 2).arg(m_pos_.y(), 0, 'f', 2);
   QToolTip::showText(event->globalPos(),pos,this);
 }
+
+

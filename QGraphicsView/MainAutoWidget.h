@@ -3,11 +3,11 @@
 
 #include <QWidget>
 
-
-
 namespace Ui {
 class MainAutoWidget;
 }
+
+
 
 class MainAutoWidget : public QWidget
 {
@@ -22,5 +22,8 @@ public:
 private:
   Ui::MainAutoWidget *ui_;
 };
+
+
+
 
 #endif // MAINAUTOWIDGET_H

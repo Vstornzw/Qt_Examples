@@ -1,4 +1,4 @@
-#ifndef DIRECTIONKEY_H
+﻿#ifndef DIRECTIONKEY_H
 #define DIRECTIONKEY_H
 
 #include <QWidget>
@@ -6,6 +6,8 @@
 namespace Ui {
 class DirectionKey;
 }
+
+
 
 class DirectionKey : public QWidget
 {
@@ -18,5 +20,8 @@ public:
 private:
   Ui::DirectionKey *ui;
 };
+
+
+
 
 #endif // DIRECTIONKEY_H

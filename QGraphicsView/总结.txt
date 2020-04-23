@@ -1,0 +1,26 @@
+今天遇到一个问题
+
+在MainAutoWidget.ui 里面拉出
+对象		类
+tab_widget        QTabWidget
+ log_widget_       LogViewer
+ 
+
+在MainAutoWidget.cpp文件中就不能用
+
+connect(ocutter->LogOnUiHandler(),SIGNAL(Log(int,QDateTime,QString,QString)),
+     
+             ui_->tab_widget_->log_widget_, SLOT(OnLog(int,QDateTime,QString,QString)));
+
+这样根本链接不到log_widget_
+
+用这个方式试试
+
+QWidget *widget = ui_->tab_widget_->widget(0);
+  
+
+cutter::LogViewer *view =  static_cast<cutter::LogViewer *>(widget);	//static_cast是一个c++运算符，功能是把一个表达式转换为某种类型，但没有运行时类型检查来保证转换的安全性。
+
+connect(ocutter->LogOnUiHandler(),SIGNAL(Log(int,QDateTime,QString,QString)),
+         
+             view, SLOT(OnLog(int,QDateTime,QString,QString)));

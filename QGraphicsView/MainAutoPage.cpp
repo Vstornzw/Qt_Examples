@@ -1,6 +1,8 @@
 ﻿#include "MainAutoPage.h"
 #include "ui_MainAutoPage.h"
 
+
+
 MainAutoPage::MainAutoPage(QWidget *parent) :
   QWidget(parent),
   ui_(new Ui::MainAutoPage) {
@@ -21,3 +23,4 @@ void MainAutoPage::resizeEvent(QResizeEvent *event) {
                                direction_key_->width(), direction_key_->height());
   QWidget::resizeEvent(event);
 }
+

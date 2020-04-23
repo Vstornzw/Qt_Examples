@@ -2,6 +2,7 @@
 #include "ui_ShpeMintor.h"
 
 
+
 ShpeMintor::ShpeMintor(QWidget *parent) :
   QWidget(parent),
   ui_(new Ui::ShpeMintor)
@@ -20,3 +21,5 @@ ShpeMintor::~ShpeMintor()
 {
   delete ui_;
 }
+
+

@@ -1,4 +1,4 @@
-#include "DirectionKey.h"
+﻿#include "DirectionKey.h"
 #include "ui_DirectionKey.h"
 
 DirectionKey::DirectionKey(QWidget *parent) :
@@ -12,3 +12,4 @@ DirectionKey::~DirectionKey()
 {
   delete ui;
 }
+

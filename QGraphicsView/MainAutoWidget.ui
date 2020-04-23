@@ -13,13 +13,13 @@
   <property name="windowTitle">
    <string>MainAutoWidget</string>
   </property>
-  <widget class="ShpeMintor" name="drawer_screen_" native="true">
+  <widget class="cutter::ShpeMintor" name="widget" native="true">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>10</y>
-     <width>291</width>
-     <height>301</height>
+     <x>10</x>
+     <y>9</y>
+     <width>261</width>
+     <height>231</height>
     </rect>
    </property>
   </widget>
@@ -27,9 +27,9 @@
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
   <customwidget>
-   <class>ShpeMintor</class>
+   <class>cutter::ShpeMintor</class>
    <extends>QWidget</extends>
-   <header location="global">ShpeMintor.h</header>
+   <header>ShpeMintor.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

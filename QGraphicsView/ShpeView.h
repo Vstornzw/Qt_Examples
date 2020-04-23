@@ -4,6 +4,7 @@
 #include <QGraphicsView>
 #include <QMouseEvent>
 #include <QPointF>
+
 class ShpeView : public QGraphicsView
 {
 public:
