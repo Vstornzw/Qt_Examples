@@ -4,7 +4,7 @@
 
 2 QWdget 
     https://doc.qt.io/archives/qtjambi-4.5.2_01/com/trolltech/qt/gui/QWidget.html
-3 20200409
+3 20200429
 程序员的自我修养，编译动态库
 OpenCVxuex
 算法
