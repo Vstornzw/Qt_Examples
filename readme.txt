@@ -1,6 +1,11 @@
-1 Ìí¼ÓÖ÷Ò³Ãæ MainAutoWidget.ui,
-   »¹ÓĞShpeMintor.uiÒ³Ãæ£¬
-   »¹ÓĞShpeViewÀà£¬¼Ì³ĞÓÚQGraphicsView
+1 æ·»åŠ ä¸»é¡µé¢ MainAutoWidget.ui,
+   è¿˜æœ‰ShpeMintor.uié¡µé¢ï¼Œ
+   è¿˜æœ‰ShpeViewç±»ï¼Œç»§æ‰¿äºQGraphicsView
 
 2 QWdget 
     https://doc.qt.io/archives/qtjambi-4.5.2_01/com/trolltech/qt/gui/QWidget.html
+3 20200429
+ç¨‹åºå‘˜çš„è‡ªæˆ‘ä¿®å…»ï¼Œç¼–è¯‘åŠ¨æ€åº“
+OpenCVxuex
+ç®—æ³•
+ 
