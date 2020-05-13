@@ -1,0 +1,29 @@
+2020-02-13 05:49:42[Cutter] [Info]  Start up successfully.
+
+2020-02-13 05:50:14[Cutter] [Debug] Empty collector data! No lock record found!
+
+2020-02-14 05:57:47[Cutter] [Debug] Success to write lock data to collector!
+
+2020-02-14 05:59:06[Cutter] [Info]  Start up successfully.
+
+2020-03-13 06:07:22[Cutter] [Info]  Start up successfully.
+
+2020-03-13 06:12:26[Cutter] [Info]  Start up successfully.
+
+2020-03-14 06:14:05[Cutter] [Info]  Start up successfully.
+
+2020-03-14 06:15:39[Cutter] [Info]  Start up successfully.
+
+2020-04-13 06:16:40[Cutter] [Info]  Start up successfully.
+
+2020-04-13 08:19:06[Cutter] [Info]  Start up successfully.
+
+2020-04-16 06:55:05[Cutter.Listener.FlDev] [Error] Cannot found dev feature.
+
+2020-04-16 06:55:06[Cutter] [Info]  Start up successfully.
+
+2020-05-16 06:56:04[Cutter] [Debug] Success to write lock data to collector!
+
+2020-05-17 06:57:07[Cutter.Listener.FlDev] [Error] Cannot found dev feature.
+
+2020-05-17 06:57:09[Cutter] [Info]  Start up successfully.
