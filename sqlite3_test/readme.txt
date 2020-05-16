@@ -1,24 +1,26 @@
-1	CÓïÑÔÊ¹ÓÃSQLite3Êı¾İ¿â--http://www.sqlite.org/download.html
-	ÔÚ±¾ÎÄ¼ş¼ĞµÄ need file ÎÄ¼ş¼ĞÀïÃæÒÑ¾­ÏÂÔØºÃÁË£¨sqlite-dll-win64-x64-3310100.zipÃ»ÓĞÓÃÉÏ£©
+https://www.cnblogs.com/tfanalysis/p/4073756.html å­¦ä¹ ç½‘å€
 
-2	cmd µ½Ö¸¶¨µÄÄ¿Â¼ÏÂ£¨ÈôÊÇ²»ÊìÁ·µÄ¿ÉÒÔ²Î¿¼https://zhidao.baidu.com/question/18450488.html£©
+1	Cè¯­è¨€ä½¿ç”¨SQLite3æ•°æ®åº“--http://www.sqlite.org/download.html
+	åœ¨æœ¬æ–‡ä»¶å¤¹çš„ need file æ–‡ä»¶å¤¹é‡Œé¢å·²ç»ä¸‹è½½å¥½äº†ï¼ˆsqlite-dll-win64-x64-3310100.zipæ²¡æœ‰ç”¨ä¸Šï¼‰
 
-3	https://www.cnblogs.com/wangluojisuan/archive/2013/11/06/3411266.html£¨ÓĞsqlite3Ïà¹Øº¯ÊıµÄÑ§Ï°£©
+2	cmd åˆ°æŒ‡å®šçš„ç›®å½•ä¸‹ï¼ˆè‹¥æ˜¯ä¸ç†Ÿç»ƒçš„å¯ä»¥å‚è€ƒhttps://zhidao.baidu.com/question/18450488.htmlï¼‰
 
-ÀıÈç£º
+3	https://www.cnblogs.com/wangluojisuan/archive/2013/11/06/3411266.htmlï¼ˆæœ‰sqlite3ç›¸å…³å‡½æ•°çš„å­¦ä¹ ï¼‰
+
+ä¾‹å¦‚ï¼š
 int sqlite3_exec(sqlite3 *db, const char *sql, sqlite3_callback callback, void *,char **errmsg);
 
-¹¦ÄÜ:Ö´ĞĞsqlÓï¾ä
+åŠŸèƒ½:æ‰§è¡Œsqlè¯­å¥
 
-²ÎÊı:
-db:Êı¾İ¿â¾ä±ú
-sql:sqlÓï¾ä
-callback:»Øµ÷º¯Êı,Ã¿³É¹¦Ö´ĞĞÒ»´ÎsqlÓï¾ä¾ÍÖ´ĞĞÒ»´Îcallbackº¯Êı
-void *:¸ø»Øµ÷º¯Êı´«µÄ²ÎÊı
-errmsg:´íÎóĞÅÏ¢
-»Øµ÷º¯ÊıµÄ¶¨Òå:
+å‚æ•°:
+db:æ•°æ®åº“å¥æŸ„
+sql:sqlè¯­å¥
+callback:å›è°ƒå‡½æ•°,æ¯æˆåŠŸæ‰§è¡Œä¸€æ¬¡sqlè¯­å¥å°±æ‰§è¡Œä¸€æ¬¡callbackå‡½æ•°
+void *:ç»™å›è°ƒå‡½æ•°ä¼ çš„å‚æ•°
+errmsg:é”™è¯¯ä¿¡æ¯
+å›è°ƒå‡½æ•°çš„å®šä¹‰:
 typedef int(*sqlite3_callback)(void *, int, char **, char **);
-ºÜÃ÷ÏÔÕâÊÇÒ»¸öº¯ÊıÖ¸Õë,
+å¾ˆæ˜æ˜¾è¿™æ˜¯ä¸€ä¸ªå‡½æ•°æŒ‡é’ˆ,
 
 
 
