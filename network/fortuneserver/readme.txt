@@ -1,6 +1,6 @@
-µÚÒ»²½£º·şÎñÆ÷
+ç¬¬ä¸€æ­¥ï¼šæœåŠ¡å™¨
 tcpServer = new QTcpServer(this);
- if (!tcpServer->listen()) {// ĞÂ½¨ Tcp ·şÎñ²¢¿ªÊ¼¼àÌı£¬Õâ¸ö¼àÌıÊÇ»ùÓÚËùÓĞµØÖ·£¬ÈÎÒâ¶Ë¿ÚµÄ<span style="font-family: Arial, Helvetica, sans-serif;">                              </span>
+ if (!tcpServer->listen()) {// æ–°å»º Tcp æœåŠ¡å¹¶å¼€å§‹ç›‘å¬ï¼Œè¿™ä¸ªç›‘å¬æ˜¯åŸºäºæ‰€æœ‰åœ°å€ï¼Œä»»æ„ç«¯å£çš„<span style="font-family: Arial, Helvetica, sans-serif;">                              </span>
       QMessageBox::critical(this, tr("Fortune Server"),
                             tr("Unable to start the server: %1.")
                             .arg(tcpServer->errorString()));
@@ -8,23 +8,23 @@ tcpServer = new QTcpServer(this);
       return;
   }
 
-µÚ¶ş²½£º¿Í»§¶Ë
-ÓÉconnect(getFortuneButton, &QAbstractButton::clicked,
+ç¬¬äºŒæ­¥ï¼šå®¢æˆ·ç«¯
+ç”±connect(getFortuneButton, &QAbstractButton::clicked,
             this, &Client::requestNewFortune);
-µ½
+åˆ°
 tcpSocket->connectToHost(hostCombo->currentText(),
-                             portLineEdit->text().toInt());//Á¬½Óµ½Ö÷»ú£¬µÚÒ»¸ö²ÎÊıÊÇIPµØÖ·£¬µÚ¶ş¸ö²ÎÊıÊÇ¶Ë¿ÚºÅ£¬µÚÈı¸ö²ÎÊıÄ¬ÈÏÖµÎª¶ÁĞ´
-µÚÈı²½£º¿Í»§¶ËÅĞ¶Ï 
-1>ÄÜÁ¬½ÓÉÏ
-·şÎñÆ÷£ºconnect(tcpServer, &QTcpServer::newConnection, this, &Server::sendFortune);//·¢ËÍÏûÏ¢
-¿Í»§¶Ë£º connect(tcpSocket, &QIODevice::readyRead, this, &Client::readFortune);//½ÓÊÜÏûÏ¢
-2>²»ÄÜÁ¬½ÓÉÏ
-¿Í»§¶Ë£º
+                             portLineEdit->text().toInt());//è¿æ¥åˆ°ä¸»æœºï¼Œç¬¬ä¸€ä¸ªå‚æ•°æ˜¯IPåœ°å€ï¼Œç¬¬äºŒä¸ªå‚æ•°æ˜¯ç«¯å£å·ï¼Œç¬¬ä¸‰ä¸ªå‚æ•°é»˜è®¤å€¼ä¸ºè¯»å†™
+ç¬¬ä¸‰æ­¥ï¼šå®¢æˆ·ç«¯åˆ¤æ–­ 
+1>èƒ½è¿æ¥ä¸Š
+æœåŠ¡å™¨ï¼šconnect(tcpServer, &QTcpServer::newConnection, this, &Server::sendFortune);//å‘é€æ¶ˆæ¯
+å®¢æˆ·ç«¯ï¼š connect(tcpSocket, &QIODevice::readyRead, this, &Client::readFortune);//æ¥å—æ¶ˆæ¯
+2>ä¸èƒ½è¿æ¥ä¸Š
+å®¢æˆ·ç«¯ï¼š
  typedef void (QAbstractSocket::*QAbstractSocketErrorSignal)(QAbstractSocket::SocketError);
     connect(tcpSocket, static_cast<QAbstractSocketErrorSignal>(&QAbstractSocket::error), this, &Client::displayError);
 
 
-void Client::displayError(QAbstractSocket::SocketError socketError)// Õâ¸öSocketErrorÊÇ³éÏó»ùÀàµÄÃ¶¾Ù¶ÔÏó£¬Òò´Ë¶ÔËùÓĞÌ×½Ó×Ö¶¼ÊÇÍ¨ÓÃµÄ
+void Client::displayError(QAbstractSocket::SocketError socketError)// è¿™ä¸ªSocketErroræ˜¯æŠ½è±¡åŸºç±»çš„æšä¸¾å¯¹è±¡ï¼Œå› æ­¤å¯¹æ‰€æœ‰å¥—æ¥å­—éƒ½æ˜¯é€šç”¨çš„
 {
     switch (socketError) {
     case QAbstractSocket::RemoteHostClosedError:
@@ -50,4 +50,4 @@ void Client::displayError(QAbstractSocket::SocketError socketError)// Õâ¸öSocket
     getFortuneButton->setEnabled(true);
 }
 
-lll
+ll
