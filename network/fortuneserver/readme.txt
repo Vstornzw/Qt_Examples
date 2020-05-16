@@ -1,3 +1,6 @@
+﻿参考网址：https://blog.csdn.net/cloud_castle/article/details/21789723
+
+
 第一步：服务器
 tcpServer = new QTcpServer(this);
  if (!tcpServer->listen()) {// 新建 Tcp 服务并开始监听，这个监听是基于所有地址，任意端口的<span style="font-family: Arial, Helvetica, sans-serif;">                              </span>
