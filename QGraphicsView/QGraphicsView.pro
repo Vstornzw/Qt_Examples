@@ -24,17 +24,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        MainAutoWidget.cpp \
+    MainAutoWidget.cpp \
     ShpeMintor.cpp \
     ShpeView.cpp \
     MainAutoPage.cpp \
-    DirectionKey.cpp
+    DirectionKey.cpp \
+    GraphicsScene.cpp
 
 HEADERS  += MainAutoWidget.h \
     ShpeMintor.h \
     ShpeView.h \
     MainAutoPage.h \
-    DirectionKey.h
+    DirectionKey.h \
+    GraphicsScene.h
 
 FORMS    += MainAutoWidget.ui \
     ShpeMintor.ui \

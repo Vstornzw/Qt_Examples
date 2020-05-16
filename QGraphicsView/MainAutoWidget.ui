@@ -13,13 +13,13 @@
   <property name="windowTitle">
    <string>MainAutoWidget</string>
   </property>
-  <widget class="cutter::ShpeMintor" name="widget" native="true">
+  <widget class="ShpeMintor" name="widget" native="true">
    <property name="geometry">
     <rect>
      <x>10</x>
      <y>9</y>
-     <width>261</width>
-     <height>231</height>
+     <width>331</width>
+     <height>261</height>
     </rect>
    </property>
   </widget>
@@ -27,7 +27,7 @@
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
   <customwidget>
-   <class>cutter::ShpeMintor</class>
+   <class>ShpeMintor</class>
    <extends>QWidget</extends>
    <header>ShpeMintor.h</header>
    <container>1</container>
