@@ -49,3 +49,5 @@ void Client::displayError(QAbstractSocket::SocketError socketError)// Õâ¸öSocket
 
     getFortuneButton->setEnabled(true);
 }
+
+lll
